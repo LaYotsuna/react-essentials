@@ -64,6 +64,7 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
+        <br></br>
         <h2>Time to get started!</h2>
       </main>
     </div>
