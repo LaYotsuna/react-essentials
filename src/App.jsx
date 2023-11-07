@@ -44,6 +44,13 @@ function CoreConcept({ title, description, image }) {
   );
 }
 
+/* Another way ^ */
+// export default function CoreConcept({ ...concept }) {
+// ...concept groups multiple values into a single object
+// Use concept.title, concept.description etc.
+// Or destructure the concept object: const { title, description, image } = concept;
+//}
+
 function App() {
   return (
     <div>
