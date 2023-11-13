@@ -28,9 +28,9 @@ function App() {
           {/* Menu is a list of buttons */}
           <menu>
             <TabButton>Components</TabButton>
-            <TabButton>Components</TabButton>
-            <TabButton>Components</TabButton>
-            <TabButton>Components</TabButton>
+            <TabButton>JSX</TabButton>
+            <TabButton>Props</TabButton>
+            <TabButton>State</TabButton>
           </menu>
         </section>
         <br></br>
