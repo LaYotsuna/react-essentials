@@ -7,7 +7,7 @@ import TabButton from "./components/TabButton";
 
 function App() {
   /* Must be called top level */
-  useState();
+  const [selectedTopic, setSelectedTopic] = useState(0);
 
   function handleClick(selectedBtn) {
     console.log(selectedBtn);
