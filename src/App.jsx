@@ -4,7 +4,9 @@ import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
 
 function App() {
-  function handleClick(selectedBtn) {}
+  function handleClick(selectedBtn) {
+    console.log(selectedBtn);
+  }
 
   return (
     <div>
