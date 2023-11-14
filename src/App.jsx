@@ -1,9 +1,14 @@
+/* React hook the import below */
+import { useState } from "react";
 import { CORE_CONCEPTS } from "./data";
 import Header from "./components/Header/Header.jsx";
 import CoreConcept from "./components/CoreConcept";
 import TabButton from "./components/TabButton";
 
 function App() {
+  /* Must be called top level */
+  useState();
+
   function handleClick(selectedBtn) {
     console.log(selectedBtn);
   }
