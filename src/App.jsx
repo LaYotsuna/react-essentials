@@ -10,7 +10,7 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState(0);
 
   function handleClick(selectedBtn) {
-    console.log(selectedBtn);
+    setSelectedTopic(selectedTopic);
   }
 
   return (
